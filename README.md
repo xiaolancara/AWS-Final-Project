@@ -7,3 +7,4 @@ Structured Dataset: obtained from https://data.cityofnewyork.us/Social-Services/
 
 Unstructured Dataset: obtained from https://data.cccnewyork.org/data/table/66/median-incomes#66/107/62/a/a using chorme driver selenium method.
 
+All datasets are stored in S3 public bucket "ia-final-project-bucket" on AWS cloud.
