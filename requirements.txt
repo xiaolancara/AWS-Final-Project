@@ -1,1 +1,7 @@
 pandas
+sodapy
+mysql
+smtplib
+selenium
+awscli
+s3fs 
