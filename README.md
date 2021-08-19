@@ -20,5 +20,11 @@ All datasets are stored in **S3 public bucket "ia-final-project-bucket"** on AWS
 This is the [Fianl Project Report](https://github.com/xiaolancara/AWS-Final-Project/blob/main/InteriumDocuments/Final%20Project%20Report.pdf)
 
 ## ER Diagram
+**Data Resources:**
+
 ![Data Resource](https://github.com/xiaolancara/AWS-Final-Project/blob/main/InteriumDocuments/Resource%20ER.png)
+
+
+**Data WareHouse:**
+
 ![Data WareHouse](https://github.com/xiaolancara/AWS-Final-Project/blob/main/InteriumDocuments/Data%20Warehouse%20ER.png)
