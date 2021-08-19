@@ -15,9 +15,10 @@ All datasets are stored in **S3 public bucket "ia-final-project-bucket"** on AWS
 ## Using following AWS services to implement the whole project:
 **S3, RDS, GLUE, VPC, LAMBDA, IAM, CLOUD WATCH**
 
-## Fianl Report
+## Fianl Report & Presentation
 This is the [Fianl Project Report](https://github.com/xiaolancara/AWS-Final-Project/blob/main/InteriumDocuments/Final%20Project%20Report.pdf)
 
+This is the [Presentation File](https://github.com/xiaolancara/AWS-Final-Project/blob/main/InteriumDocuments/Final%20Project%20Presentation.pdf)
 ## ER Diagram
 **Data Resources:**
 
