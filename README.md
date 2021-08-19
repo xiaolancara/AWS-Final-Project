@@ -29,4 +29,4 @@ This is the [Fianl Project Report](https://github.com/xiaolancara/AWS-Final-Proj
 ![Data WareHouse](https://github.com/xiaolancara/AWS-Final-Project/blob/main/InteriumDocuments/Data%20Warehouse%20ER.png)
 
 ## Tableau Analysis
-![Tableau DashBoard](https://public.tableau.com/app/profile/cara.li/viz/FinalProjectTableauWorkbook_16294056513360/LocationvsCountofIncident?publish=yes)
+[Tableau DashBoard](https://public.tableau.com/app/profile/cara.li/viz/FinalProjectTableauWorkbook_16294056513360/LocationvsCountofIncident?publish=yes)
