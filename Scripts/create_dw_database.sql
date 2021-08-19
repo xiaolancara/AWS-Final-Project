@@ -43,6 +43,8 @@ CREATE TABLE `dim_incident` (
   `borough` varchar(200) DEFAULT NULL,
   `district` varchar(200) DEFAULT NULL,
   `zip_code` varchar(200) DEFAULT NULL,
+  `latitude` varchar(200) DEFAULT NULL,
+  `longitude` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`incident_id`)
 );
 

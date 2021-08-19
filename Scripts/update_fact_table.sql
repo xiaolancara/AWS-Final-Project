@@ -1,3 +1,4 @@
+
 SET @@SESSION.sql_mode='ALLOW_INVALID_DATES';
 #Update Date Dimension
 SET FOREIGN_KEY_CHECKS=0;
@@ -42,4 +43,4 @@ LEFT JOIN final_dw.dim_income_zipcode ON a.incident_zip = final_dw.dim_income_zi
 LEFT JOIN final_dw.dim_date ON a.created_date = final_dw.dim_date.date_string
 GROUP BY incident_key, agency_key, borough_key, district_key, zipcode_key, date_key
 ORDER BY incident_key, agency_key, borough_key, district_key, zipcode_key, date_key;
-SET FOREIGN_KEY_CHECKS=1;
+SET FOREIGN_KEY_CHECKS=1

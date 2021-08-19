@@ -22,7 +22,7 @@ agency_name as agency_name
 FROM final_project_db.`311_service_request`;
 
 TRUNCATE TABLE  final_dw.dim_incident;
-INSERT INTO final_dw.dim_incident(incident_id, complaint_type, descriptor, description, borough, district, zip_code)
+INSERT INTO final_dw.dim_incident(incident_id, complaint_type, descriptor, description, borough, district, zip_code, latitude, longitude)
 SELECT  DISTINCT 
 unique_key as incident_id,
 complaint_type as complaint_type,
@@ -30,7 +30,9 @@ descriptor as descriptor,
 resolution_description as description,
 borough as borough,
 city as district,
-incident_zip as zip_code
+incident_zip as zip_code,
+latitude as latitude,
+longitude as longitude
 FROM final_project_db.`311_service_request`
 ORDER BY CAST(incident_id AS SIGNED INTEGER);
 
@@ -54,4 +56,4 @@ SELECT  DISTINCT
 location as zipcode,
 all_households as median_income
 FROM final_project_db.nyc_zipcodes_median_income_info_csv;
-SET FOREIGN_KEY_CHECKS=1;
+SET FOREIGN_KEY_CHECKS=1
