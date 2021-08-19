@@ -5,7 +5,7 @@
 
 Structured Dataset: obtained from https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 using rest api method.
 
-Unstructured Dataset: obtained from https://data.cccnewyork.org/data/table/66/median-incomes#66/107/62/a/a using chorme driver selenium method.
+Unstructured Dataset: obtained from https://data.cccnewyork.org/data/table/66/median-incomes#66/107/62/a/a using chrome driver selenium method.
 
 All datasets are stored in **S3 public bucket "ia-final-project-bucket"** on AWS cloud.
 
