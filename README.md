@@ -12,7 +12,7 @@ All datasets are stored in **S3 public bucket "ia-final-project-bucket"** on AWS
 ## AWS Architecture
 ![Architecture](https://github.com/xiaolancara/AWS-Final-Project/blob/main/InteriumDocuments/Final%20Project%20AWS%20Architechture%20work%20flow.png)
 
-## Using folllowing AWS services to implement the whole project:
+## Using following AWS services to implement the whole project:
 **S3, RDS, GLUE, VPC, LAMBDA, IAM, CLOUD WATCH**
 
 ## Fianl Report
